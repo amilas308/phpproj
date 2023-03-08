@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="">
+        <title>Signup</title>
+    </head>
+    <body>
+        <section>
+            <div class="signbox">
+                <h1 class="tit">SignUp</h1>
+                <form action="process-signup.php" method="POST">
+                    <div class="lbs">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name" required  placeholder="Enter your name">
+                    </div>
+                    <div class="lbs">
+                        <label for="name">Email</label><br>
+                        <input type="email" name="email" id="email" required  placeholder="someone@gmail.com">
+                    </div>
+                    <div class="lbs">
+                        <label for="name">Password</label><br>
+                        <input type="password" name="password" id="pass" required placeholder="**********">
+                    </div>
+
+                    <div class="lbs">
+                        <label for="name">Confirm Password</label><br>
+                        <input type="password" name="Cpassword" id="cpass" required placeholder="C**********">
+                    </div>
+                    <input type="submit" value="Submit" name="submit">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

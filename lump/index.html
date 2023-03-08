@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="IE-edge">
+        <meta name="X-UA-Comaptible" content="width=device-width, initial-scale=0">
+        <link rel="icon" href="">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="subcont">
+                <div class="general">
+                    <h1>Registeration Form</h1>
+                </div>
+                <div class="reg-form">
+                    <form action="porcess-signup.php" method="POST" enctype="multipart/form-data">
+                        <div class="name-feild">
+                            <label for="name">Name</label><br>
+                            <input type="text" placeholder="Enter your name" value="" name="name" id="name">
+                        </div>
+                        <div class="name-feild">
+                            <label for="email">Email</label><br>
+                            <input type="email" placeholder="someone@gmail.com" name="email" id="email">
+                        </div>
+                        <div class="name-feild">
+                            <label for="phone">Phone</label><br>
+                            <input type="tel" placeholder="Enter your phonenumber" name="phonenumber" id="phone">
+                        </div>
+                        <div class="name-feild">
+                            <label for="password">Pass</label><br>
+                            <input type="password" placeholder="password" name="password" id="pass">
+                        </div>
+                        <div class="name-feild">
+                            <label for="confirm">Confirm Password</label><br>
+                            <input type="password" placeholder="password" name="confirm_password" id="pass">
+                        </div>
+                        <input type="submit" name="submit" class="btn" id="submit" value="SignUp">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
